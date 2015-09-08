@@ -1,0 +1,25 @@
+{
+  "name": "jss-loader",
+  "version": "0.0.0",
+  "description": "JSS Loader for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markdalgleish/jss-loader.git"
+  },
+  "author": "Mark Dalgleish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markdalgleish/jss-loader/issues"
+  },
+  "homepage": "https://github.com/markdalgleish/jss-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.11"
+  },
+  "peerDependencies": {
+    "jss": "*"
+  }
+}
