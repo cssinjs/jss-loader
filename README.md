@@ -1,5 +1,7 @@
 # JSS Loader for Webpack
 
+**WARNING: This project is still experimental and not yet ready for production.**
+
 Use JavaScript as your CSS preprocessor!
 
 Dynamically create CSS by executing JavaScript at build time. Export your styles in the [JSS](https://github.com/jsstyles/jss) format and they'll be converted into regular CSS.
