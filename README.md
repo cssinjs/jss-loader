@@ -30,7 +30,7 @@ module.exports = {
 This loader is designed to export global CSS selectors, so it's recommended to use this loader in tandem with [CSS Modules](https://github.com/css-modules/css-modules) via [css-loader](https://github.com/webpack/css-loader) to create locally scoped class names.
 
 ```js
-var styles = require('css?modules!jss./component.jss.js');
+var styles = require('css?modules!jss!./component.jss.js');
 
 var html = '<div class="' + styles.hello + '">Hello World!</div>';
 ```
