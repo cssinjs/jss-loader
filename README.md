@@ -44,7 +44,7 @@ module.exports = {
   module: {
     loaders: [...]
   },
-  jssLoader:
+  jssLoader: {
     plugins: [
       require('jss-nested'),
       require('jss-extend'),
@@ -53,6 +53,7 @@ module.exports = {
       require('jss-props-sort'),
       require('jss-px')
     ]
+  }
 };
 ```
 
