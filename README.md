@@ -9,7 +9,7 @@ Dynamically create CSS by executing JavaScript at build time. Export your styles
 ## Install
 
 ```bash
-$ npm install --save jss-loader jss
+$ npm install --save jss-loader
 ```
 
 ## Usage
